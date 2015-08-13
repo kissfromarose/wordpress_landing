@@ -6,7 +6,7 @@ RewriteBase /wordpress_landing/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress_land/index.php [L]
+RewriteRule . /wordpress_landing/index.php [L]
 </IfModule>
 
 # END WordPress
